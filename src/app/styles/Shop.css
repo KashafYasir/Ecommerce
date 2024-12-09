@@ -1,0 +1,47 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .shop-container {
+    width: 100%;
+    height: 316px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://s3-alpha-sig.figma.com/img/1461/f3d6/ff74c027a1888544144abe4be6e02cbf?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jX~JrxKLOR4vLQn0862YF6WRKCDEm5kTmIUxYKRRdw-0sGp21po1zkrEdkXxsUm-PhNMFxhnJGbKfAxEV2TeMnKmbyIS2WD6htmA4Kwky3-B5XOr7~EMVI8Drd7K~8RDjKDp0s3WRl0vu2RUJ1uYEsOmBEt4PzavfzWgNchS1EipHGdsbb4rhSDm6DM6ueMrMQPaVlaYy4rkuCCBT~2OH70kplfXkCMgfWkVneEozpnc1TAkF-Yq27grsEnLF5MG37MvP7OFYpRqD9cb7JOBMuAQ2MUDCJ4JG-KMYRMp8U11Bc8I9EAzM5EUiXpE0cU0W5VHU~BAae44OxRVPbVdMw__');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .shop-background {
+    text-align: center;
+    color: #000000;
+  }
+  
+  .shop-title h1 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 72px;
+    margin: 0;
+  }
+  
+  .shop-breadcrumb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  
+  .shop-breadcrumb span {
+    margin: 0 5px;
+  }
+  
+  .breadcrumb-separator {
+    font-weight: 500;
+  }
+  
+  

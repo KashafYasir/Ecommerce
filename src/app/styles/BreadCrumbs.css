@@ -1,0 +1,38 @@
+body {
+    background-color: #f9f3eb;
+  }
+  
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9f9f9f;
+  }
+  
+  .breadcrumb-item {
+    margin-right: 8px;
+  }
+  
+  .breadcrumb-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+  
+  .breadcrumb-current {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .breadcrumb::after {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 24px;
+    background-color: #8c8c8c;
+    margin-left: 16px;
+  }
+  
+  

@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f5f0;
+  }
+  
+  .room-inspiration {
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+  }
+  
+  .text-section {
+    max-width: 422px;
+  }
+  
+  .text-section h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #3a3a3a;
+    margin-bottom: 20px;
+  }
+  
+  .text-section p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #616161;
+    margin-bottom: 20px;
+  }
+  
+  .explore-button {
+    background-color: #b88e2f;
+    color: white;
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins, sans-serif';
+    cursor: pointer;
+    border-radius: 0px;
+    text-align: center;
+    display: inline-block;
+    width: 10rem;
+    height: 3rem;
+    line-height: 24px;
+    border-radius: 0.5rem;
+  }
+  
+  .image-section {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .image-card {
+    position: relative;
+  }
+  
+  .image-overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .image-overlay span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #616161;
+  }
+  
+  .image-overlay h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #3a3a3a;
+  }
+  
+  .arrow-button {
+    background-color: #b38e5d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  
