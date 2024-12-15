@@ -77,31 +77,31 @@ const Sidebar: React.FC = () => {
       id: 1,
       title: 'Going all-in with millennial design',
       date: '03 Aug 2022',
-      imageId: 'id=1'
-    },
+      imageId: '/slidbar1.jpg',
+        },
     {
       id: 2,
       title: 'Exploring new ways of decorating',
       date: '03 Aug 2022',
-      imageId: 'id=2'
+      imageId: '/slidbar3.jpg'
     },
     {
       id: 3,
       title: 'Handmade pieces that took time to make',
       date: '03 Aug 2022',
-      imageId: 'id=3'
+      imageId: '/slidbar4.jpg'
     },
     {
       id: 4,
       title: 'Modern home in Milan',
       date: '03 Aug 2022',
-      imageId: 'id=4'
+      imageId: '/slidebar5.jpg'
     },
     {
       id: 5,
       title: 'Colorful office redesign',
       date: '03 Aug 2022',
-      imageId: 'id=5'
+      imageId: '/slidebar6.jpg'
     }
   ];
 

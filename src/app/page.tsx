@@ -19,12 +19,13 @@ import Cart from './components/Cart';
 import Checkout from './components/Checkout';
 import CheckoutPage from './components/CheckoutPage';
 import FooterComponent from './components/FooterComponent';
-import Contact from './components/Contact';
+
 import ContactPage from './components/ContactPage';
 import ProductCamparision from './components/ProductCamparision';
 import ProductShowcase from './components/ProductShowcase';
 import Blog from './components/Blog';
 import BlogPage from './components/BlogPage';
+import Contact from './components/Contact';
 
 export default function page (){
   return (

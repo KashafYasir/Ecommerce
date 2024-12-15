@@ -10,14 +10,14 @@ interface ProductCardProps {
 
 const ProductCart: React.FC<ProductCardProps> = ({ imageId, title, rating, price }) => {
   return (
-    <div style={styles.card}>
+    // <div style={styles.card}>
       <img src={`https://placeholder.pics/svg?${imageId}`} alt={title} style={styles.image} />
-      <div style={styles.info}>
-        <h2 style={styles.title}>{title}</h2>
-        <div style={styles.rating}>{'⭐'.repeat(rating)}</div>
-        <div style={styles.price}>{price}</div>
-      </div>
-    </div>
+    //   {/* <div style={styles.info}> */}
+    //     <h2 style={styles.title}>{title}</h2>
+    //     <div style={styles.rating}>{'⭐'.repeat(rating)}</div>
+    //     <div style={styles.price}>{price}</div>
+    //   </div>
+    // // </div>
   );
 };
 
@@ -52,9 +52,9 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({
   return (
     <div style={styles.productDetails}>
       <img 
-        src={`https://dashboard.codeparrot.ai/api/assets/Z1Xeq4wTRzcMVVti`} 
+        src={`https://s3-alpha-sig.figma.com/img/e8ee/1dc9/413c23f2d7371be94a52ea9020db45cc?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LmOPsf9DBZ4v0G2AA9BBzwyVXg3MBjcmD4EyNBQKK6DPFtzTyvIGyhr2~yQZdLJsQTlWjnmnrBE8VMcU5bKKiaybfwnnAQqwm-iQqer2T8RHwWrzUZefssBx9HQBUrnVhgEKJrGsZz2d9avJE-r~o7v-d~nN6nOQHyJhqojKwdka2srnNITSSaxMTL8FRtpdghdtOiwyDy28CwDa293G7X9HmOk63zdnpd9Y3kQFdAwpDnSYrcMcCyDdbzIq43f7BvFGxV2KMI9JwoJn0sP6YVIAIAeqq08j6Ro3f5xBfariMccGqhvlzXo5LwHhBCLLo7J8i~-~upTsn68IsI4wpw_`} 
         alt={productName} 
-        style={styles.productImage}
+        // style={styles.productImage}
       />
       <h2 style={styles.productName}>{productName}</h2>
       <p style={styles.productDescription}>{productDescription}</p>
