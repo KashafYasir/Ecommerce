@@ -58,8 +58,7 @@ const ShowMoreButton: React.FC<ShowMoreButtonProps> = ({ onClick }) => {
 const RelatedProducts: React.FC = () => {
   const products = [
     {
-      imageUrl:'"https://s3-alpha-sig.figma.com/img/1421/901b/217b5f7ea72cbcd9ce3062c4165744e5?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mhwyP9paCQt1Q-cE5kI3f8HCoEJfRarh7lN8laRWyui0ELgcn~AdXEt0O2nuvBvLNKLV99q92P7tdaJousg25CP4EcrTxebV3UF--LatnhBlaPe1dBgRh-tdb0K9ABwxYpbNHGMWXiOyWbfi24JSCqVSUq2JtaJF-OB5-xCWtxV~yPcgzU9b78-8d8U29HmnmO6JhFblfMSoJYXNcmazsBWsf8OatDBICKdHYbUZ-CMJOkf0jAHlOFC3WaoD-6SHbAiCOABl83aO32qK-hozLjRYUBqA2E12Dj7c23v664MOn-cSZel8a9BOLJJ8AvWEh7jrWSzPCnWp5HsaSs5Hdw__"',
-      imageId: '1',
+       imageId:"/table.jpeg",
       name: 'Syltherine',
       description: 'Stylish cafe chair',
       price: 'Rp 2.500.000',
@@ -67,9 +66,8 @@ const RelatedProducts: React.FC = () => {
       discount: '-30%'
     },
     {
-      imageUrl:'"https://s3-alpha-sig.figma.com/img/1421/901b/217b5f7ea72cbcd9ce3062c4165744e5?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mhwyP9paCQt1Q-cE5kI3f8HCoEJfRarh7lN8laRWyui0ELgcn~AdXEt0O2nuvBvLNKLV99q92P7tdaJousg25CP4EcrTxebV3UF--LatnhBlaPe1dBgRh-tdb0K9ABwxYpbNHGMWXiOyWbfi24JSCqVSUq2JtaJF-OB5-xCWtxV~yPcgzU9b78-8d8U29HmnmO6JhFblfMSoJYXNcmazsBWsf8OatDBICKdHYbUZ-CMJOkf0jAHlOFC3WaoD-6SHbAiCOABl83aO32qK-hozLjRYUBqA2E12Dj7c23v664MOn-cSZel8a9BOLJJ8AvWEh7jrWSzPCnWp5HsaSs5Hdw__"',
-
-      imageId: '2',
+      imageId:"/chair.jpeg",
+      
       name: 'Leviosa',
       description: 'Stylish cafe chair',
       price: 'Rp 2.500.000',
@@ -77,9 +75,7 @@ const RelatedProducts: React.FC = () => {
       discount: '-30%'
     },
     {
-      imageUrl:'"https://s3-alpha-sig.figma.com/img/1421/901b/217b5f7ea72cbcd9ce3062c4165744e5?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mhwyP9paCQt1Q-cE5kI3f8HCoEJfRarh7lN8laRWyui0ELgcn~AdXEt0O2nuvBvLNKLV99q92P7tdaJousg25CP4EcrTxebV3UF--LatnhBlaPe1dBgRh-tdb0K9ABwxYpbNHGMWXiOyWbfi24JSCqVSUq2JtaJF-OB5-xCWtxV~yPcgzU9b78-8d8U29HmnmO6JhFblfMSoJYXNcmazsBWsf8OatDBICKdHYbUZ-CMJOkf0jAHlOFC3WaoD-6SHbAiCOABl83aO32qK-hozLjRYUBqA2E12Dj7c23v664MOn-cSZel8a9BOLJJ8AvWEh7jrWSzPCnWp5HsaSs5Hdw__"',
-
-      imageId: '3',
+     imageId:"/whitesofa.jpeg",
       name: 'Lolito',
       description: 'Luxury big sofa',
       price: 'Rp 7.000.000',
@@ -87,9 +83,8 @@ const RelatedProducts: React.FC = () => {
       discount: '-50%'
     },
     {
-      imageUrl:'"https://s3-alpha-sig.figma.com/img/1421/901b/217b5f7ea72cbcd9ce3062c4165744e5?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mhwyP9paCQt1Q-cE5kI3f8HCoEJfRarh7lN8laRWyui0ELgcn~AdXEt0O2nuvBvLNKLV99q92P7tdaJousg25CP4EcrTxebV3UF--LatnhBlaPe1dBgRh-tdb0K9ABwxYpbNHGMWXiOyWbfi24JSCqVSUq2JtaJF-OB5-xCWtxV~yPcgzU9b78-8d8U29HmnmO6JhFblfMSoJYXNcmazsBWsf8OatDBICKdHYbUZ-CMJOkf0jAHlOFC3WaoD-6SHbAiCOABl83aO32qK-hozLjRYUBqA2E12Dj7c23v664MOn-cSZel8a9BOLJJ8AvWEh7jrWSzPCnWp5HsaSs5Hdw__"',
-
-      imageId: '4',
+ imageId:"/blacksofa.jpeg",
+      
       name: 'Respira',
       description: 'Outdoor bar table and stool',
       price: 'Rp 500.000',

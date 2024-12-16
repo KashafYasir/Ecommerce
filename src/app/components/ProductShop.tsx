@@ -112,18 +112,18 @@ const styles = {
 
 const ProductShop: React.FC = () => {
   const products = [
-    { imageId: '1', name: 'Syltherine', description: 'Stylish cafe chair', price: 'Rp 2.500.000', originalPrice: 'Rp 3.500.000', discount: '-30%' },
-    { imageId: '2', name: 'Leviosa', description: 'Stylish cafe chair', price: 'Rp 2.500.000', originalPrice: '', discount: '' },
-    { imageId: '3', name: 'Lolito', description: 'Luxury big sofa', price: 'Rp 7.000.000', originalPrice: 'Rp 14.000.000', discount: '-50%' },
-    { imageId: '4', name: 'Respira', description: 'Outdoor bar table and stool', price: 'Rp 500.000', originalPrice: '', discount: 'New' },
-    { imageId: '1', name: 'Syltherine', description: 'Stylish cafe chair', price: 'Rp 2.500.000', originalPrice: 'Rp 3.500.000', discount: '-30%' },
-    { imageId: '2', name: 'Leviosa', description: 'Stylish cafe chair', price: 'Rp 2.500.000', originalPrice: '', discount: '' },
-    { imageId: '3', name: 'Lolito', description: 'Luxury big sofa', price: 'Rp 7.000.000', originalPrice: 'Rp 14.000.000', discount: '-50%' },
-    { imageId: '4', name: 'Respira', description: 'Outdoor bar table and stool', price: 'Rp 500.000', originalPrice: '', discount: 'New' },
-    { imageId: '1', name: 'Syltherine', description: 'Stylish cafe chair', price: 'Rp 2.500.000', originalPrice: 'Rp 3.500.000', discount: '-30%' },
-    { imageId: '2', name: 'Leviosa', description: 'Stylish cafe chair', price: 'Rp 2.500.000', originalPrice: '', discount: '' },
-    { imageId: '3', name: 'Lolito', description: 'Luxury big sofa', price: 'Rp 7.000.000', originalPrice: 'Rp 14.000.000', discount: '-50%' },
-    { imageId: '4', name: 'Respira', description: 'Outdoor bar table and stool', price: 'Rp 500.000', originalPrice: '', discount: 'New' },
+    { imageId: '/whitetable.jpeg', name: 'Syltherine', description: 'Stylish cafe chair', price: 'Rp 2.500.000', originalPrice: 'Rp 3.500.000', discount: '-30%' },
+    { imageId: '/chair.jpeg', name: 'Leviosa', description: 'Stylish cafe chair', price: 'Rp 2.500.000', originalPrice: '', discount: '' },
+    { imageId: '/whitesofa.jpeg', name: 'Lolito', description: 'Luxury big sofa', price: 'Rp 7.000.000', originalPrice: 'Rp 14.000.000', discount: '-50%' },
+    { imageId: '/blacksofa.jpeg', name: 'Respira', description: 'Outdoor bar table and stool', price: 'Rp 500.000', originalPrice: '', discount: 'New' },
+    { imageId: '/whitetable.jpeg', name: 'Syltherine', description: 'Stylish cafe chair', price: 'Rp 2.500.000', originalPrice: 'Rp 3.500.000', discount: '-30%' },
+    { imageId: '/chair.jpeg', name: 'Leviosa', description: 'Stylish cafe chair', price: 'Rp 2.500.000', originalPrice: '', discount: '' },
+    { imageId: '/whitesofa.jpeg', name: 'Lolito', description: 'Luxury big sofa', price: 'Rp 7.000.000', originalPrice: 'Rp 14.000.000', discount: '-50%' },
+    { imageId: '/blacksofa.jpeg', name: 'Respira', description: 'Outdoor bar table and stool', price: 'Rp 500.000', originalPrice: '', discount: 'New' },
+    { imageId: '/whitetable.jpeg', name: 'Syltherine', description: 'Stylish cafe chair', price: 'Rp 2.500.000', originalPrice: 'Rp 3.500.000', discount: '-30%' },
+    { imageId: '/chair.jpeg', name: 'Leviosa', description: 'Stylish cafe chair', price: 'Rp 2.500.000', originalPrice: '', discount: '' },
+    { imageId: '/whitesofa.jpeg', name: 'Lolito', description: 'Luxury big sofa', price: 'Rp 7.000.000', originalPrice: 'Rp 14.000.000', discount: '-50%' },
+    { imageId: '/blacksofa.jpeg', name: 'Respira', description: 'Outdoor bar table and stool', price: 'Rp 500.000', originalPrice: '', discount: 'New' },
     
   ];
 

@@ -3,16 +3,16 @@ import React, { useState } from 'react';
 import '../styles/ProductPage.css';
 
 const ProductPage: React.FC = () => {
-  const [selectedImage, setSelectedImage] = useState('117:920');
+  const [selectedImage, setSelectedImage] = useState('/asfarpc.jpg');
   const [selectedSize, setSelectedSize] = useState<string | null>(null);
   const [selectedColor, setSelectedColor] = useState<string>('');
   const [quantity, setQuantity] = useState(1);
 
   const images = [
-    { id: '117:920' },
-    { id: '117:921' },
-    { id: '117:922' },
-    { id: '117:923' },
+    { id: '/1st.jpg' },
+    { id: '/2nd.jpg' },
+    { id: '/asfarpc2.jpg' },
+    { id: '/brown.sofa.jpg' },
   ];
 
   const handleSizeClick = (size: string) => {
@@ -109,9 +109,9 @@ const ProductPage: React.FC = () => {
           <div className="details">Tags: Sofa, Chair, Home, Shop</div>
         </div>
         <div className="social-icons">
-          <img src="" alt="Facebook" width="20" height="20" />
-          <img src="" alt="Twitter" width="25" height="25" />
-          <img src="" alt="LinkedIn" width="20" height="20" />
+          <img src="https://png.pngtree.com/png-clipart/20230401/original/pngtree-facebook-icon-png-image_9015416.png" alt="Facebook" width="20" height="20" />
+          <img src="https://th.bing.com/th/id/OIP.BFKsODAsFkgWZjQtPVMslgHaHa?rs=1&pid=ImgDetMain" alt="Twitter" width="25" height="25" />
+          <img src="https://th.bing.com/th/id/OIP.NN_29U5mI6l_KAfhsxQksgHaHa?rs=1&pid=ImgDetMain" alt="LinkedIn" width="20" height="20" />
         </div>
       </div>
     </div>
