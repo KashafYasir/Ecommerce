@@ -10,10 +10,10 @@ import type { AppProps } from 'next/app';
 import FilterBar from './components/FilterBar';
 import ProductShop from './components/ProductShop';
 import FeaturesComponent from './components/FeatureComponent';
-import Breadcrumb from './components/BreadCrumbs';
+import BreadCrumbs from './components/BreadCrumbs';
 import ProductPage from './components/ProductPage';
 import ProductDescription from './components/ProductDescription';
-import RelatedProducts from './components/RelatedProduct';
+
 import RelatedProduct from './components/RelatedProduct';
 import Cart from './components/Cart';
 import Checkout from './components/Checkout';
@@ -22,7 +22,6 @@ import FooterComponent from './components/FooterComponent';
 
 import ContactPage from './components/ContactPage';
 import ProductCamparision from './components/ProductCamparision';
-import ProductShowcase from './components/ProductShowcase';
 import Blog from './components/Blog';
 import BlogPage from './components/BlogPage';
 import Contact from './components/Contact';
@@ -42,7 +41,7 @@ export default function page (){
 <FilterBar/>
 <ProductShop/>
 <FeaturesComponent/>
-<Breadcrumb/>
+<BreadCrumbs/>
 <ProductPage/>
 <ProductDescription/>
 <RelatedProduct/>
@@ -65,7 +64,7 @@ export default function page (){
 
 <Navbar/>
 <ProductCamparision/>
-<ProductShowcase/>
+
 <FeaturesComponent/>
 <FooterComponent/>
 
@@ -73,7 +72,7 @@ export default function page (){
 <Blog/>
 <BlogPage/>
 <FeaturesComponent/>
-
+<FooterComponent/>
 
 
    </main>

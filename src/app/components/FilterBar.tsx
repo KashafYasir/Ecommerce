@@ -5,9 +5,9 @@ const FilterBar: React.FC = () => {
   return (
     <div className="filter-bar">
       <div className="filter-section">
-        <img src="_" alt="Filter Icon" width="25" height="25" />
-        <span>Filter</span>4HScy9M4XzjWnooRCbDvsVVMvEE0w3oz6OGr
-        <img src="" alt="List Icon" width="24" height="24" />
+        <img src="/filter.png" alt="Filter Icon" width="25" height="25" />
+        <span>Filter</span>
+        <img src="/list.jpg" alt="List Icon" width="24" height="24" />
       </div>
       <div className="divider" />
       <div className="results-section">

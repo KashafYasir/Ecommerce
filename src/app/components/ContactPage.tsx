@@ -42,14 +42,14 @@ const ContactInfo: React.FC = () => {
   return (
     <div style={infoStyles.container}>
       <div style={infoStyles.section}>
-        <img src="https://dashboard.codeparrot.ai/api/assets/Z1XYiu4ZL_Fz8lv3" alt="Address Icon" width="22" height="28" style={infoStyles.icon} />
+        <img src="/add.jpg" alt="Address Icon" width="22" height="28" style={infoStyles.icon} />
         <div>
           <h3 style={infoStyles.title}>Address</h3>
           <p style={infoStyles.text}>236 5th SE Avenue, New York NY10000, United States</p>
         </div>
       </div>
       <div style={infoStyles.section}>
-        <img src="https://dashboard.codeparrot.ai/api/assets/Z1XYiu4ZL_Fz8lv4" alt="Phone Icon" width="30" height="30" style={infoStyles.icon} />
+        <img src="/call.jpg" alt="Phone Icon" width="30" height="30" style={infoStyles.icon} />
         <div>
           <h3 style={infoStyles.title}>Phone</h3>
           <p style={infoStyles.text}>Mobile: (+84) 546-6789</p>
@@ -57,7 +57,7 @@ const ContactInfo: React.FC = () => {
         </div>
       </div>
       <div style={infoStyles.section}>
-        <img src="https://dashboard.codeparrot.ai/api/assets/Z1XYiu4ZL_Fz8lv5" alt="Working Time Icon" width="23" height="23" style={infoStyles.icon} />
+        <img src="/working.jpg" alt="Working Time Icon" width="23" height="23" style={infoStyles.icon} />
         <div>
           <h3 style={infoStyles.title}>Working Time</h3>
           <p style={infoStyles.text}>Monday-Friday: 9:00 - 22:00</p>
