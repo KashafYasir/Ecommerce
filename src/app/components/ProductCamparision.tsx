@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/ProductCamparision.css';
-import Navbar from './Navbar';
+
 
 
 const ProductCamparision: React.FC = () => {

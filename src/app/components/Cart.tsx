@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Cart.css';
-import Navbar from './Navbar';
+
 
 
 const ShopComponent: React.FC = () => {

@@ -24,7 +24,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
     <div className="product-card">
       <div className="image-container">
         <img
-          src={`https://s3-alpha-sig.figma.com/img/4491/a0ea/43eebd52ea72d60650f31030ec4bf7e6?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bjuNvS-wVLHpB9yWmdA~i25KQKEXDXrPuyaFeaOTkgbSGXZgD6bMB1FjoEw14HScy9M4XzjWnooRCbDvsVVMvEE0w3oz6OGrJemr4S3IvOG7uLhi5shr6mcDLsnDpVEmXNXiOrGp7gm3SKkNILQCpBdnIKudUuttyAD1PvKCQRtqZ2ZcKVGHCpT5s1QHv5znKeQ7N5AoOW1BmKd5AoKk~nfaF4O~O-BCpvf2hopyYrv-9bxXtGMdbNpQlPH034gIFcg1vi4vt8JFV8lWjCkzyslYVrNuWPgXZZKuDQbg0XyQ~xOHk3jFETNEZgSrSBPRwrVVYDxrCJHtxru-Lsrhaw__${1}`}
+          src={`_${1}`}
           alt="chair"
           className="product-image"
         />
@@ -55,8 +55,8 @@ const ProductCard: React.FC<ProductCardProps> = ({
 
 const ProductGrid: React.FC = () => {
   const products = [
-    {imageURL:"https://s3-alpha-sig.figma.com/img/1f73/e563/4a5dbc0c29efbae1beca6ab40dd9b598?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=g5WIoe~p317suY-0jLxVhxDMCcleJZLU-U6e8m3ZmnVqk5DRSG6J1KYfh7HWy7tg8R259dgbULyUBvNxuAahBJG37qrsProPMbZpOAyfQBkaGGHMiAJBPVPVDTmNMYpsCXqK0o4bL5aeXqhElTcdPHESICMEyxQO2aM-RvvX1LHtjs~YHqxsi4i-EBrCaJjWnd1M9TP3Rw8768Sorgvt~Rn9CQrJKyfku5IxjTTpS9~q~pcdpF8jGJSE4cJBOgCu8aH7GbJmJU9yeT79PCYxNCEGaWk4TOzZr~l4vpkr3dqXerVLhl0Ilrtk07IkUj7SKZ2O9BTtwRsIblLPyDDw1g_"
- , imageId: '1', name: 'Syltherine', description: 'Stylish cafe chair', price: 'Rp 2.500.000', originalPrice: 'Rp 3.500.000', discount: '-30%' },
+    {
+  imageId: '1', name: 'Syltherine', description: 'Stylish cafe chair', price: 'Rp 2.500.000', originalPrice: 'Rp 3.500.000', discount: '-30%' },
     { imageId: '2', name: 'Leviosa', description: 'Stylish cafe chair', price: 'Rp 2.500.000', originalPrice: 'Rp 3.500.000' },
     { imageId: '3', name: 'Lolito', description: 'Luxury big sofa', price: 'Rp 7.000.000', originalPrice: 'Rp 14.000.000', discount: '-50%' },
     { imageId: '4', name: 'Respira', description: 'Outdoor bar table and stool', price: 'Rp 500.000', originalPrice: '', label: 'New' },

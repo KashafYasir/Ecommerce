@@ -9,7 +9,7 @@ const GalleryComponent: React.FC = () => {
         <h1>#FuniroFurniture</h1>
       </div>
       <div className="gallery-grid">
-        <img src="/side.jpeg" alt="Image 1" width="50" height="100" />
+        <img src="/side.jpeg" alt="Image 1" width="10"height="20"/>
         <img src="/lapradio.jpeg" alt="Image 2" width="300" height="400" />
         <img src="/dinning.jpeg" alt="Image 3" width="300" height="400" />
         <img src="/bed.jpeg" alt="Image 4" width="300" height="400" />

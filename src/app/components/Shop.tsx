@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Shop.css';
-import Navbar from './Navbar';
+
 
 
 const ShopComponent: React.FC = () => {
@@ -18,7 +18,7 @@ const ShopComponent: React.FC = () => {
           <span>Shop</span>
         </div>
       </div>
-      {/* product section */}
+     
 
       
     </div>

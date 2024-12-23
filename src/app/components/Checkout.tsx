@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Checkout.css';
-import Navbar from './Navbar';
+
 
 
 const Checkout: React.FC = () => {
