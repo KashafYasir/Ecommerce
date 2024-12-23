@@ -10,7 +10,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('https://s3-alpha-sig.figma.com/img/1461/f3d6/ff74c027a1888544144abe4be6e02cbf?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jX~JrxKLOR4vLQn0862YF6WRKCDEm5kTmIUxYKRRdw-0sGp21po1zkrEdkXxsUm-PhNMFxhnJGbKfAxEV2TeMnKmbyIS2WD6htmA4Kwky3-B5XOr7~EMVI8Drd7K~8RDjKDp0s3WRl0vu2RUJ1uYEsOmBEt4PzavfzWgNchS1EipHGdsbb4rhSDm6DM6ueMrMQPaVlaYy4rkuCCBT~2OH70kplfXkCMgfWkVneEozpnc1TAkF-Yq27grsEnLF5MG37MvP7OFYpRqD9cb7JOBMuAQ2MUDCJ4JG-KMYRMp8U11Bc8I9EAzM5EUiXpE0cU0W5VHU~BAae44OxRVPbVdMw__');
+    background-image:url( '../../../public/bc.jpg');
     background-size: cover;
     background-position: center;
   }

@@ -24,17 +24,17 @@ const ProductCard: React.FC<ProductCardProps> = ({
     <div className="product-card">
       <div className="image-container">
         <img
-          src={`_${1}`}
+          src={`${imageId}`}
           alt="chair"
           className="product-image"
         />
          <img
-          src={`https://s3-alpha-sig.figma.com/img/2084/99f3/7c62fb49f7d4a1a6a5dc5959b40150ed?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KGgPoxLDFIWiK-XNxN8kl8mLRyW3lDeR8u1iOgAvZNtUakPNswq~E0BXv7sXxV7Ljan8tJa6IZ69OrtSA~hOeJmZpui-KFn7AwzvmjzLdRzySOygzXdj-9yMjf4LZKbUV5dNuy~EhyG3SsCZbqs4fW83vZZuL1IyWw29tAQoyW-V~e8YpgfpEcXraPAptC7GCgcRVqeagwVeVX22Ua9deUH6iFxMGjNv0eza52naGRU8xBWGWeiucer7mBlPGO-bU2MA-bkmTISuiQExFV4uEEISkD8FzlJIhJbFbv9V8J4sIkSYNC9QrhIKivJePLsbZIiyTdxVNiBYNe7DApIzMw__${2}`}
+          src={`${imageId}`}
           alt="Chair"
           className="product-image"
         />
          <img
-          src="https://s3-alpha-sig.figma.com/img/1f73/e563/4a5dbc0c29efbae1beca6ab40dd9b598?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=g5WIoe~p317suY-0jLxVhxDMCcleJZLU-U6e8m3ZmnVqk5DRSG6J1KYfh7HWy7tg8R259dgbULyUBvNxuAahBJG37qrsProPMbZpOAyfQBkaGGHMiAJBPVPVDTmNMYpsCXqK0o4bL5aeXqhElTcdPHESICMEyxQO2aM-RvvX1LHtjs~YHqxsi4i-EBrCaJjWnd1M9TP3Rw8768Sorgvt~Rn9CQrJKyfku5IxjTTpS9~q~pcdpF8jGJSE4cJBOgCu8aH7GbJmJU9yeT79PCYxNCEGaWk4TOzZr~l4vpkr3dqXerVLhl0Ilrtk07IkUj7SKZ2O9BTtwRsIblLPyDDw1g_"
+          src={`${imageId}`}
           alt="chair"
           className="product-image"
         />
@@ -56,14 +56,14 @@ const ProductCard: React.FC<ProductCardProps> = ({
 const ProductGrid: React.FC = () => {
   const products = [
     {
-  imageId: '1', name: 'Syltherine', description: 'Stylish cafe chair', price: 'Rp 2.500.000', originalPrice: 'Rp 3.500.000', discount: '-30%' },
-    { imageId: '2', name: 'Leviosa', description: 'Stylish cafe chair', price: 'Rp 2.500.000', originalPrice: 'Rp 3.500.000' },
-    { imageId: '3', name: 'Lolito', description: 'Luxury big sofa', price: 'Rp 7.000.000', originalPrice: 'Rp 14.000.000', discount: '-50%' },
-    { imageId: '4', name: 'Respira', description: 'Outdoor bar table and stool', price: 'Rp 500.000', originalPrice: '', label: 'New' },
-    { imageId: '5', name: 'Grifo', description: 'Night lamp', price: 'Rp 1.500.000', originalPrice: '' },
-    { imageId: '6', name: 'Muggo', description: 'Small mug', price: 'Rp 150.000', originalPrice: '' },
-    { imageId: '7', name: 'Pingky', description: 'Cute bed set', price: 'Rp 7.000.000', originalPrice: 'Rp 14.000.000', discount: '-50%' },
-    { imageId: '8', name: 'Potty', description: 'Minimalist flower pot', price: 'Rp 500.000', originalPrice: '', label: 'New' },
+  imageId: '/table.jpeg', name: 'Syltherine', description: 'Stylish cafe chair', price: 'Rp 2.500.000', originalPrice: 'Rp 3.500.000', discount: '-30%' },
+    { imageId: '/chair.jpeg', name: 'Leviosa', description: 'Stylish cafe chair', price: 'Rp 2.500.000', originalPrice: 'Rp 3.500.000' },
+    { imageId: '/whitesofa.jpeg', name: 'Lolito', description: 'Luxury big sofa', price: 'Rp 7.000.000', originalPrice: 'Rp 14.000.000', discount: '-50%' },
+    { imageId: '/blacksofa.jpeg', name: 'Respira', description: 'Outdoor bar table and stool', price: 'Rp 500.000', originalPrice: '', label: 'New' },
+    { imageId: '/table.jpeg', name: 'Grifo', description: 'Night lamp', price: 'Rp 1.500.000', originalPrice: '' },
+    { imageId: '/chair.jpeg', name: 'Muggo', description: 'Small mug', price: 'Rp 150.000', originalPrice: '' },
+    { imageId: '/whitesofa.jpeg', name: 'Pingky', description: 'Cute bed set', price: 'Rp 7.000.000', originalPrice: 'Rp 14.000.000', discount: '-50%' },
+    { imageId: 'blacksofa.jpeg', name: 'Potty', description: 'Minimalist flower pot', price: 'Rp 500.000', originalPrice: '', label: 'New' },
   ];
 
   return (

@@ -51,7 +51,7 @@ const ProductPage: React.FC = () => {
         </div>
         <div className="main-image">
           <img
-            src={`https://placeholder.pics/svg?${selectedImage}`}
+            src={`${selectedImage}`}
             alt="Selected Product"
             className="selected-image"
           />

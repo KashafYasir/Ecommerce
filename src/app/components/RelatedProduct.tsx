@@ -22,7 +22,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
     <div className="product-card">
       <div className="image-container">
         <img
-          src={`https://placeholder.pics/svg?${imageId}`}
+          src={`${imageId}`}
           alt={name}
           className="product-image"
         />
